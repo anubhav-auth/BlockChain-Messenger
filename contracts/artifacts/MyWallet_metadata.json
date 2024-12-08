@@ -31,6 +31,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "error",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -90,11 +103,11 @@
 	},
 	"sources": {
 		"contracts/Wallet.sol": {
-			"keccak256": "0xf6bddcf62bead6dd37c2c02da6031e3ec0f3c25bb9d41d09eaa40da200d8fd23",
+			"keccak256": "0x963113f00b3fd985eee7cdc566a6bcce63790dc0e833679ca3e19a7c76e2ad55",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ba385c892574ba2092a1bfc92d7650dcd70e9352587b2273cdb7f489fc2b0448",
-				"dweb:/ipfs/QmcexX2LSevR7SMci1xjayuU7YtiJFce73GSaardFGx8mZ"
+				"bzz-raw://8acb5118acdcd1bf528f21f85a8acc588f8f460d83f6df339e1497d0b92c2cd0",
+				"dweb:/ipfs/QmQhs2jiLyJgciEzdwds5jLJmZZcK8f7Lb8ZnR5drrSZL8"
 			]
 		}
 	},
