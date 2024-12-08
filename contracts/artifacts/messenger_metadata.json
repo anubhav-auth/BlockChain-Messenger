@@ -52,6 +52,19 @@
 			{
 				"inputs": [
 					{
+						"internalType": "address",
+						"name": "_receipeint",
+						"type": "address"
+					}
+				],
+				"name": "sendMoney",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "string",
 						"name": "_newMessage",
 						"type": "string"
@@ -59,7 +72,7 @@
 				],
 				"name": "updateMess",
 				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "payable",
 				"type": "function"
 			}
 		],
@@ -91,11 +104,11 @@
 	},
 	"sources": {
 		"contracts/MessengerContract.sol": {
-			"keccak256": "0xbfa9f0506d14df7ec9dfe5efccd75b58b0c532177bed7a4a7e06a46a13666cb0",
+			"keccak256": "0xf08d992ee84c4e99315b059c7caef712ff77468b941c7c887c236e46eb7cc6e1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8edcec6305e0d231918033941b92b762a74823fcb101067e4cd14d9a07541646",
-				"dweb:/ipfs/QmTCPexhCgy1TP8jTizCQxZ1Y618QazWrgxgdY5KchQWPh"
+				"bzz-raw://e12978649e3422cbc39621479ab8e5e0322cdfe28dc3ba72f669f488f23181c7",
+				"dweb:/ipfs/QmcywpzYZPULWojxCWDWWU4wZt6mtQbZUpXtKE9Q7jCTFT"
 			]
 		}
 	},
